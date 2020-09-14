@@ -2,7 +2,7 @@
 
 
 # Installing OpenJDK
-sudo apt-get install openjdk-8-jdk
+sudo apt-get install openjdk-8-jdk -y
 # sudo update-alternatives --config java // set in to jdk 8 if need
 
 
@@ -24,6 +24,7 @@ wget http://old.kali.org/kali/pool/main/m/msp430-libc/msp430-libc_20120224-1_amd
 sudo dpkg -i msp430-libc_20120224-1_amd64.deb
 wget http://old.kali.org/kali/pool/main/g/gcc-msp430/gcc-msp430_4.6.3~mspgcc-20120406-7_amd64.deb
 sudo dpkg -i gcc-msp430_4.6.3~mspgcc-20120406-7_amd64.deb
+sudo apt install gcc-avr -y
 
 # Downloading Cooja
 wget http://downloads.sourceforge.net/project/contiki/Contiki/Contiki%202.7/contiki-2.7.zip
